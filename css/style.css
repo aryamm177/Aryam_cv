@@ -1,0 +1,134 @@
+span {
+  background-color: #c70039;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  margin-right: 3px;
+}
+
+li {
+  list-style-type: circle;
+}
+
+.person_information {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.person_information img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.person_information h1 {
+  color: #141e46;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.person_information p {
+  margin-left: 40px;
+  color: #460115;
+}
+.person_information h3 {
+  margin-left: 40px;
+  color: #141e46;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 30px;
+
+  display: inline-block;
+}
+
+.person_information i {
+  color: #c70039;
+  font-size: 18px;
+}
+.person_information h2 {
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #c70039;
+}
+
+hr {
+  height: 5px;
+  background-color: #141e46;
+  border: 0;
+  margin: 0 100px;
+  opacity: 1;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.education h2 {
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #141e46;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.education h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c70039;
+}
+
+.project {
+  padding: 40px 100px;
+}
+
+.project h2 {
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+  color: #141e46;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.project .div_big {
+  display: flex;
+  margin-top: 30px;
+}
+
+.project .div_big img {
+  width: 200px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.project .div_big h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #c70039;
+}
+
+.project .div_big p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.project .div_big a {
+  margin-right: 20px;
+  font-weight: 600;
+  color: #c70039;
+  text-decoration: none;
+  border: 2px solid #460115;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #141e46;
+  color: #ff638f;
+}
